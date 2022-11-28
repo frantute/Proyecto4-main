@@ -143,7 +143,17 @@ ModelImporter:
     9500000: //RootNode
     13700000: cuerpo
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: ff8d78897c669564abcb3825c7e8f03c, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lH8yTHvm
+    second: {fileID: 2800000, guid: 8cd527a74c1a686409107aee0915548a, type: 3}
   materials:
     importMaterials: 1
     materialName: 0

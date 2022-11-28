@@ -10,6 +10,7 @@ public class Enemigo : MonoBehaviour
     public NavMeshAgent agent;
     public Animator animator;
     public PuntosPlayer puntosplayerscript;
+	 public GameObject cientifico;
 
     public bool spawneando = true;
     // Start is called before the first frame update
@@ -34,6 +35,8 @@ public class Enemigo : MonoBehaviour
         {
             Invoke(nameof(DestroyEnemy), 0.2f);
             puntosplayerscript.SumarPuntos(50);
+			SpawnCientifico();
+
         }
         else
         {
@@ -68,4 +71,8 @@ public class Enemigo : MonoBehaviour
         agent.speed = 3.5f;
 
     }
+	void SpawnCientifico()
+    {
+        var b = Instantiate(cientifico, transform.position, transform.rotation);
+	}
 }

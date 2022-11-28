@@ -165,6 +165,8 @@ MonoBehaviour:
   agent: {fileID: 0}
   animator: {fileID: 4148187402170985016}
   puntosplayerscript: {fileID: 0}
+  cientifico: {fileID: 7677583032303643189, guid: 47c37cdb68dc8aa42890400ad742743a,
+    type: 3}
   spawneando: 1
 --- !u!136 &4148187402309074120
 CapsuleCollider:
