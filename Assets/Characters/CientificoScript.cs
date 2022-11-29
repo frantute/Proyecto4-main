@@ -10,7 +10,7 @@ public class CientificoScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        cientifico.destination = destination.position;
+        destination = GameObject.FindGameObjectWithTag("CientificoCorre").transform;;
     }
 
     // Update is called once per frame

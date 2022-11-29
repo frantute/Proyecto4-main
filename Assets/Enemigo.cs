@@ -10,7 +10,7 @@ public class Enemigo : MonoBehaviour
     public NavMeshAgent agent;
     public Animator animator;
     public PuntosPlayer puntosplayerscript;
-	 public GameObject cientifico;
+	public GameObject cientifico;
 
     public bool spawneando = true;
     // Start is called before the first frame update
